@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat</title>
+    <link rel="stylesheet" href="style.css"> <!-- Incluindo arquivo CSS personalizado -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIa6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Incluindo arquivo CSS da biblioteca Bootstrap -->
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Contêiner principal para o chat -->
+        <div class="chat-header">
+            <!-- Cabeçalho do chat -->
+            <h1>WhatsApp Chat</h1> <!-- Título do chat -->
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Área para exibir as mensagens do chat -->
+            <!-- As mensagens serão exibidas aqui -->
+        </div>
+        <div class="chat-input">
+            <!-- Área para entrada de mensagens -->
+            <input type="text" id="message-input" placeholder="Digitar Mensagem..">
+            <!-- Campo de entrada de texto para digitar mensagens -->
+            <button id="send-button">
+                <!-- Botão para enviar mensagens -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                    <!-- Ícone SVG do botão de envio -->
+                    <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Incluindo arquivo JavaScript -->
+</body>
+</html>
